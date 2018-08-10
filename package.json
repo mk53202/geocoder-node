@@ -1,0 +1,18 @@
+{
+  "name": "geocoder-node",
+  "version": "1.0.0",
+  "description": "Geocoder",
+  "main": "geo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geo"
+  ],
+  "author": "Matt Koster",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "node-geocoder": "^3.22.0"
+  }
+}
