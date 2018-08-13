@@ -15,7 +15,6 @@ var geocoder = NodeGeocoder(options);
 geocoder.geocode('3209 N BARTLETT AV,MKE')
   .then(function(res) {
     console.log(res[0].latitude + "," + res[0].longitude)
-    // console.log(res)
       // [ { latitude: 43.07595,
       //     longitude: -87.88941,
       //     country: 'United States',
