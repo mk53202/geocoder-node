@@ -10,9 +10,11 @@ var options = {
   apiKey: process.env.VIRTUALEARTH_API_KEY
 }
 
+var ADDRESS = '815 E BRADY ST,MKE'
+
 var geocoder = NodeGeocoder(options);
 
-geocoder.geocode('3209 N BARTLETT AV,MKE')
+geocoder.geocode(ADDRESS)
   .then(function(res) {
     console.log(res[0].latitude + "," + res[0].longitude)
       // [ { latitude: 43.07595,
